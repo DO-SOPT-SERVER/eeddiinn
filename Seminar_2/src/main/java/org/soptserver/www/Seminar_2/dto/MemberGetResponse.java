@@ -2,10 +2,10 @@
   이 Dto는 Member 엔티티의 정보를 클라이언트에 반환하는데 사용
  */
 
-package org.soptserver.www.Seminar_2.dto;
+package org.soptserver.www.Seminar_3.dto;
 
-import org.soptserver.www.Seminar_2.domain.Member;
-import org.soptserver.www.Seminar_2.domain.SOPT;
+import org.soptserver.www.Seminar_3.domain.Member;
+import org.soptserver.www.Seminar_3.domain.SOPT;
 public record MemberGetResponse(
         String name,
         String nickname,
