@@ -6,6 +6,7 @@ spring:
     password:
 
   jpa:
+    defer-datasource-initialization: true
     show-sql: true
     hibernate:
       ddl-auto: create
@@ -13,3 +14,8 @@ spring:
       hibernate:
         format_sql: true
         show_sql: true
+
+
+    spl:
+      init:
+        mode: always

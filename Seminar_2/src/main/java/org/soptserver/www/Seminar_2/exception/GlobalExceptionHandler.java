@@ -1,0 +1,15 @@
+package org.soptserver.www.Seminar_3.exception;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+    @ExceptionHandler(IllegalAccessException.class)
+    public ResponseEntity<void> handleIllegalArgumentException(final IllegalArgumentException e)
+    {
+        return ResponseEntity.badRequest().build();
+    }
+}

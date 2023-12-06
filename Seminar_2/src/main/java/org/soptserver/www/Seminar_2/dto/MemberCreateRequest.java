@@ -7,9 +7,9 @@
  */
 
 
-package org.soptserver.www.Seminar_2.dto;
+package org.soptserver.www.Seminar_3.dto;
 
-import org.soptserver.www.Seminar_2.domain.SOPT;
+import org.soptserver.www.Seminar_3.domain.SOPT;
 public record MemberCreateRequest(
     String name,
     String nickname,

@@ -3,7 +3,7 @@
  */
 
 
-package org.soptserver.www.Seminar_2.domain;
+package org.soptserver.www.Seminar_3.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
@@ -44,3 +44,6 @@ Member {
         this.sopt = sopt;
     }
 }
+
+
+

@@ -9,13 +9,13 @@ Controller임을 나타내기 위해서 class위에 `@RestController` Annotation
  */
 
 
-package org.soptserver.www.Seminar_2.controller;
+package org.soptserver.www.Seminar_3.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.soptserver.www.Seminar_2.dto.MemberCreateRequest;
-import org.soptserver.www.Seminar_2.dto.MemberGetResponse;
-import org.soptserver.www.Seminar_2.dto.MemberProfileUpdateRequest;
-import org.soptserver.www.Seminar_2.service.MemberService;
+import org.soptserver.www.Seminar_3.dto.MemberCreateRequest;
+import org.soptserver.www.Seminar_3.dto.MemberGetResponse;
+import org.soptserver.www.Seminar_3.dto.MemberProfileUpdateRequest;
+import org.soptserver.www.Seminar_3.service.MemberService;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

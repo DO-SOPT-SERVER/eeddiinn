@@ -7,16 +7,16 @@
  */
 
 
-package org.soptserver.www.Seminar_2.service;
+package org.soptserver.www.Seminar_3.service;
 
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
-import org.soptserver.www.Seminar_2.domain.Member;
-import org.soptserver.www.Seminar_2.domain.SOPT;
-import org.soptserver.www.Seminar_2.dto.MemberCreateRequest;
-import org.soptserver.www.Seminar_2.dto.MemberGetResponse;
-import org.soptserver.www.Seminar_2.dto.MemberProfileUpdateRequest;
-import org.soptserver.www.Seminar_2.repository.MemberJpaRepository;
+import org.soptserver.www.Seminar_3.domain.Member;
+import org.soptserver.www.Seminar_3.domain.SOPT;
+import org.soptserver.www.Seminar_3.dto.MemberCreateRequest;
+import org.soptserver.www.Seminar_3.dto.MemberGetResponse;
+import org.soptserver.www.Seminar_3.dto.MemberProfileUpdateRequest;
+import org.soptserver.www.Seminar_3.repository.MemberJpaRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
