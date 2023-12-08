@@ -38,8 +38,13 @@ public class PostController {
     }
 
     @PostMapping
-    public ResponseEntity<Void> createPost(@RequestHeader(CUSTOM_AUTH_ID) Long memberId, @RequestBody PostCreateRequest request) {
-        URI location = URI.create("/api/post/" + postService.create(request, memberId));
+    public ResponseEntity<Void> createPost(
+            @RequestBody PostCreateRequest request,
+            Principal principal) {
+
+        Long memberId = Long.valueOf(principal.getName());
+        URI location = URI.create("/api/posts/" + postService.create(request, memberId));
+
         return ResponseEntity.created(location).build();
     }
 
